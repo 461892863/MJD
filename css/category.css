@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/*
+  主要内容区域
+*/
+.category_main{
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    /*background-color: red;*/
+}
+
+.category_main_left{
+    width: 90px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.category_main_left .jd_category_left_con{
+}
+
+.category_main_left .jd_category_left_con li{
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.category_main_left .jd_category_left_con li a{
+    font-size: 15px;
+    width: 100%;
+    display: block;
+}
+
+.category_main_left .jd_category_left_con li.current{
+    background-color: #fff;
+    border-right:none;
+}
+
+.category_main_left .jd_category_left_con li.current a{
+    color: #e9232c;
+}
+
+/*右边*/
+.category_main_right{
+    height: 100%;
+    /*-绝缘体-*/
+    overflow: hidden;
+    padding: 10px 8px;
+}
+
+.category_main_right>a>img{
+    width: 100%;
+    display: block;
+}
+
+.category_right_con{
+    padding: 10px 0;
+}
+
+.category_right_con h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.category_right_con ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
